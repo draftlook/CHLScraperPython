@@ -1,0 +1,10 @@
+requests
+pandas
+time
+random
+itertools
+collections
+bs4
+more_itertools
+tqdm
+datetime
