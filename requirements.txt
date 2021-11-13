@@ -1,6 +1,5 @@
 requests
 pandas
-time
 random
 itertools
 collections
