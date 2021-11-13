@@ -1,6 +1,5 @@
 requests
 pandas
-random
 itertools
 collections
 bs4
