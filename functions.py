@@ -318,6 +318,7 @@ from datetime import datetime
 import pandas as pd
 dateinfo = datetime.now()
 date = dateinfo.strftime("%Y") + "-" + dateinfo.strftime("%m") + "-" + str((int(dateinfo.strftime("%d"))-1))
+print(date)
 old_data = pd.read_csv(filepath_or_buffer="gamedata.csv")
 new_data = get_games_df(get_range_urls(date,date)).reset_index(drop=True)
 full_data = pd.concat([old_data, new_data])
