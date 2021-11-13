@@ -1,4 +1,4 @@
-name: Tweet latest progress
+name: Update dataset
 
 on:
   schedule:
