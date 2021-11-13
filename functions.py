@@ -10,7 +10,6 @@ def get_game(gameurl):
     from collections import Counter
     import operator
     from bs4 import BeautifulSoup
-    import dataframe_image as dfi
     from datetime import datetime
 
     ## Building JSON link
