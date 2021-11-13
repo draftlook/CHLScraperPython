@@ -1,7 +1,5 @@
 requests
 pandas
-itertools
-collections
 bs4
 more_itertools
 tqdm
